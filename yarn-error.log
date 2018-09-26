@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;F:\Program Files\nTrun_V2.8.0\Goto;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MongoDB\Server\3.2\bin;F:\Program Files\VisualSVN Server\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;F:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\Administrator\AppData\Roaming\npm;F:\Program Files\ReactNative\Python27;F:\Program Files\java\jdk\bin;F:\program\sdk\platform-tools;F:\Program Files\phpStudy\PHPTutorial\MySQL\bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.26.35:443
+      at Object._errnoException (util.js:992:11)
+      at _exceptionWithHostPort (util.js:1014:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+
+npm manifest: 
+  {
+    "name": "smms",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "morgan": "~1.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
